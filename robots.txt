@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://usamayousaf516.github.io/ludino-website/sitemap.xml

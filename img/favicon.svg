@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Ludino">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FFD84D"/>
+      <stop offset="1" stop-color="#F0A000"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#071A56"/>
+  <rect x="8" y="8" width="48" height="48" rx="13" fill="url(#g)"/>
+  <path d="M24 18h7v21h12v7H24z" fill="#3A2000"/>
+</svg>

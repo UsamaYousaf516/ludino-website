@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Delete Your Account | Ludino</title>
+<meta name="description" content="Submit a secure LUDINO account deletion request and learn what data is retained afterwards." />
+<meta name="theme-color" content="#071A56" />
+<link rel="canonical" href="https://usamayousaf516.github.io/ludino-website/account-deletion.html" />
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://usamayousaf516.github.io/ludino-website/account-deletion.html" />
+<meta property="og:site_name" content="Ludino" />
+<meta property="og:title" content="Delete Your Account | Ludino" />
+<meta property="og:description" content="Submit a secure LUDINO account deletion request and learn what data is retained afterwards." />
+<meta property="og:image" content="https://usamayousaf516.github.io/ludino-website/img/og-cover.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://usamayousaf516.github.io/ludino-website/img/og-cover.png" />
+
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="assets/css/styles.css" />
+<link rel="stylesheet" href="assets/css/pages.css" />
+</head>
+<body class="doc-page">
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="page">
+
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="index.html">
+        <span class="brand__mark" aria-hidden="true">L</span>LUDINO
+      </a>
+
+      <button class="nav-toggle" type="button"
+              aria-expanded="false" aria-controls="primary-nav" aria-label="Menu">
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+      </button>
+
+      <nav class="nav" id="primary-nav" aria-label="Primary">
+        <a href="index.html#modes">Modes</a>
+        <a href="index.html#together">Play Together</a>
+        <a href="index.html#gameplay">Gameplay</a>
+        <a href="contact.html">Support</a>
+      </nav>
+
+      <a class="nav-cta" href="index.html#download">Download</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="page-hero">
+      <div class="grid-overlay" aria-hidden="true"></div>
+      <div class="blob page-hero__blob--1" aria-hidden="true"></div>
+      <div class="blob page-hero__blob--2" aria-hidden="true"></div>
+
+      <div class="page-hero__inner">
+        <a class="crumb" href="index.html">Back to Ludino</a>
+        <p class="eyebrow">Account management</p>
+        <h1>Delete your LUDINO account</h1>
+        <p class="page-hero__lede">Submit a secure account-deletion request. Our team will verify your account and confirm when the process is complete.</p>
+      </div>
+    </section>
+
+    <section class="form-section">
+      <div class="form-layout">
+
+        <div class="form-steps">
+          <h2>What happens next</h2>
+          <p>You can submit a request here, or use <strong>Settings &rarr; Delete Account</strong> inside the LUDINO app.</p>
+
+          <div class="form-steps__item" style="--dot:#2B7BFF">
+            <span aria-hidden="true">1</span>
+            <p><strong>Enter your User ID</strong>Locate the 8-digit User ID shown on your LUDINO profile and enter it in the request form.</p>
+          </div>
+          <div class="form-steps__item" style="--dot:#8B3BF5">
+            <span aria-hidden="true">2</span>
+            <p><strong>Confirm your password</strong>Enter your account password. If one is not set, create it from the app&rsquo;s Settings page first.</p>
+          </div>
+          <div class="form-steps__item" style="--dot:#F0A000">
+            <span aria-hidden="true">3</span>
+            <p><strong>We verify your request</strong>Our team confirms account ownership, checks for pending payments, and reviews remaining in-app currency.</p>
+          </div>
+          <div class="form-steps__item" style="--dot:#58C322">
+            <span aria-hidden="true">4</span>
+            <p><strong>Receive confirmation</strong>After the account is approved and deleted, you will receive a final notification from LUDINO.</p>
+          </div>
+        </div>
+
+        <div class="form-card" id="request-form">
+          <div class="form-card__head">
+            <div class="shield" aria-hidden="true">&#10003;</div>
+            <div>
+              <h2>Request account deletion</h2>
+              <p>Both fields are required.</p>
+            </div>
+          </div>
+
+          <form id="delete-form" novalidate>
+            <div class="field">
+              <label for="user-id">User ID</label>
+              <div class="input-wrap">
+                <span class="field-icon" aria-hidden="true">#</span>
+                <input id="user-id" name="user_id" type="text" inputmode="numeric"
+                       autocomplete="username" maxlength="8" pattern="[0-9]{8}"
+                       placeholder="Enter your 8-digit User ID"
+                       aria-describedby="user-id-help user-id-error" required />
+              </div>
+              <small id="user-id-help">You can find this 8-digit number on your profile.</small>
+              <p class="field-error" id="user-id-error" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="password">Password</label>
+              <div class="input-wrap">
+                <span class="field-icon" aria-hidden="true">&bull;</span>
+                <input id="password" name="password" type="password"
+                       autocomplete="current-password" placeholder="Enter your account password"
+                       aria-describedby="password-help password-error" required />
+                <button class="password-toggle" id="password-toggle" type="button"
+                        aria-label="Show password" aria-pressed="false">Show</button>
+              </div>
+              <small id="password-help">If you do not have a password, create one in the app&rsquo;s Settings page.</small>
+              <p class="field-error" id="password-error" role="alert"></p>
+            </div>
+
+            <label class="confirmation">
+              <input id="confirmation" type="checkbox" required />
+              <span>I understand this request may permanently delete my account and that some records may be retained as explained below.</span>
+            </label>
+            <p class="field-error" id="confirmation-error" role="alert"></p>
+
+            <button class="delete-button" id="submit-button" type="submit">
+              <span class="button-label">Submit deletion request</span>
+              <span class="spinner" aria-hidden="true"></span>
+            </button>
+            <p class="security-note">Your request is transmitted securely for administrative review.</p>
+          </form>
+
+          <div class="status" id="form-status" role="status" aria-live="polite" hidden></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="band band--light">
+      <div class="band__inner">
+        <h2>Data retention after deletion</h2>
+        <p>Most account information is removed through the deletion process. Certain records may be retained where needed for verification, security, legal, or regulatory purposes.</p>
+
+        <div class="card-grid">
+          <article>
+            <span class="num" aria-hidden="true">01</span>
+            <h3>Contact information</h3>
+            <p>Limited details used for verification and fraud prevention.</p>
+          </article>
+          <article>
+            <span class="num" aria-hidden="true">02</span>
+            <h3>Account activity logs</h3>
+            <p>Records required for legal, safety, and security purposes.</p>
+          </article>
+          <article>
+            <span class="num" aria-hidden="true">03</span>
+            <h3>Transaction history</h3>
+            <p>In-app purchases and payment records required by financial regulations.</p>
+          </article>
+          <article>
+            <span class="num" aria-hidden="true">04</span>
+            <h3>Agency or talent records</h3>
+            <p>Relevant personal details if you registered as an agency or talent.</p>
+          </article>
+        </div>
+
+        <div class="callout">
+          <div class="callout__icon" aria-hidden="true">i</div>
+          <p>By submitting a deletion request, you acknowledge this data-retention policy.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="support-card">
+        <div>
+          <h2>Need help with your request?</h2>
+          <p>Contact our support team if you cannot find your User ID, set a password, or submit the form.</p>
+        </div>
+        <a class="support-card__link" href="mailto:help@ludino.live">help@ludino.live</a>
+      </div>
+    </section>
+
+  <section class="doc-switch">
+    <div class="doc-switch__inner">
+      <h2>Other legal documents</h2>
+      <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms &amp; Conditions</a></li>
+            <li><a href="copyright.html">Copyright Policy</a></li>
+            <li><a href="legal-requests.html">Legal Requests</a></li>
+            <li><a href="account-deletion.html" aria-current="page">Account Deletion</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="modal-backdrop" id="confirm-modal" hidden>
+    <div class="modal" role="dialog" aria-modal="true"
+         aria-labelledby="modal-title" aria-describedby="modal-description">
+      <div class="modal__mark" aria-hidden="true">!</div>
+      <h2 id="modal-title">Submit this deletion request?</h2>
+      <p id="modal-description">We&rsquo;ll send your account details for verification. Account deletion may be permanent after approval.</p>
+      <div class="modal__actions">
+        <button class="cancel-button" id="cancel-delete" type="button">Cancel</button>
+        <button class="confirm-button" id="confirm-delete" type="button">Yes, submit request</button>
+      </div>
+    </div>
+  </div>
+  </main>
+
+  <footer class="site-footer" id="support">
+    <div class="footer__rule" aria-hidden="true"></div>
+
+    <div class="footer__inner">
+      <div class="footer__cols">
+
+        <div>
+          <div class="footer__brand">
+            <span class="brand__mark" aria-hidden="true">L</span>LUDINO
+          </div>
+          <p class="footer__tagline">A social multiplayer Ludo game. Roll. Move. Win.</p>
+        </div>
+
+        <div>
+          <h3>Game</h3>
+          <ul>
+            <li><a href="index.html#modes">Game Modes</a></li>
+            <li><a href="index.html#together">Features</a></li>
+            <li><a href="index.html#download">Download</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Company</h3>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="contact.html">Support</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms &amp; Conditions</a></li>
+            <li><a href="copyright.html">Copyright Policy</a></li>
+            <li><a href="legal-requests.html">Legal Requests</a></li>
+            <li><a href="account-deletion.html">Account Deletion</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer__base">
+        <p>&copy; <span data-year>2026</span> Ludino Technology LLC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/delete-account.js" defer></script>
+</body>
+</html>
