@@ -28,9 +28,10 @@ No build step, no dependencies — open `index.html` and it runs.
 │   ├── token-red · green · blue · yellow .webp
 │   │                           # game pieces, 320×513, transparent
 │   ├── dice-1 … dice-6.png     # dice faces, 171×167, transparent
-│   ├── favicon.svg
-│   ├── apple-touch-icon.png
+│   ├── brand-mark.png         # app icon, header + footer lockup
+│   ├── favicon-16 · favicon-32 · apple-touch-icon .png
 │   └── og-cover.png           # social share card
+├── favicon.ico                # root, for legacy auto-discovery
 ├── robots.txt
 └── sitemap.xml
 ```
@@ -72,10 +73,28 @@ Update `https://usamayousaf516.github.io/ludino-website/` in:
 
 then add a `CNAME` file and point DNS at GitHub.
 
+### Icons
+
+The favicon, touch icon and the header/footer logo all come from the Ludino app
+icon (`blue_dragon_icon_1024.png`), generated into:
+
+- `img/brand-mark.png` — 136px, shown at 34px in the header, 30px in the footer
+- `img/favicon-32.png`, `img/favicon-16.png` — browser tabs
+- `img/apple-touch-icon.png` — 180px, iOS home screen
+- `favicon.ico` — root, 16/32/48, for browsers that look there first
+
+The icon's corners are transparent, so the lockup sits correctly on both the
+navy header at the top of the page and the white one after scrolling. To change
+it, drop in a new square source and re-cut all five sizes.
+
+Note it is a detailed illustration: it reads well at 32px and above, but at 16px
+it reduces to a blue-and-gold shape. If you ever want it sharper in the tab, a
+tighter crop on the dragon's head would survive 16px better than the full icon.
+
 ### Also worth setting
 
-- **`og-cover.png`** is a generated share card. Swap it for real artwork if you
-  have it (1200x630).
+- **`og-cover.png`** is a generated share card. It still uses the old wordmark
+  styling — worth regenerating with the app icon if you want them consistent.
 
 ---
 
