@@ -4,9 +4,14 @@
   <url><loc>https://usamayousaf516.github.io/ludino-website/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
   <url><loc>https://usamayousaf516.github.io/ludino-website/about.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://usamayousaf516.github.io/ludino-website/contact.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://usamayousaf516.github.io/ludino-website/privacy-policy.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://usamayousaf516.github.io/ludino-website/terms.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://usamayousaf516.github.io/ludino-website/copyright.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://usamayousaf516.github.io/ludino-website/privacy-policy.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://usamayousaf516.github.io/ludino-website/terms.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://usamayousaf516.github.io/ludino-website/community-guidelines.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://usamayousaf516.github.io/ludino-website/child-safety.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://usamayousaf516.github.io/ludino-website/anti-bullying.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://usamayousaf516.github.io/ludino-website/cookie-policy.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://usamayousaf516.github.io/ludino-website/copyright.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
   <url><loc>https://usamayousaf516.github.io/ludino-website/legal-requests.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://usamayousaf516.github.io/ludino-website/code-of-conduct.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://usamayousaf516.github.io/ludino-website/account-deletion.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
 </urlset>

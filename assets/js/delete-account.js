@@ -146,7 +146,7 @@
         setStatus('success', 'Your account deletion request was submitted successfully. Our team will verify it and notify you when the process is complete.');
       })
       .catch(function (error) {
-        var fallback = 'A network error prevented submission. Please try again or contact help@ludino.live.';
+        var fallback = 'A network error prevented submission. Please try again or contact Technologyyaro@gmail.com.';
         setStatus('error', error instanceof TypeError ? fallback : error.message);
       })
       .then(function () {

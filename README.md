@@ -12,8 +12,13 @@ No build step, no dependencies — open `index.html` and it runs.
 ├── contact.html               # support / legal / deletion contacts
 ├── privacy-policy.html        # ─┐
 ├── terms.html                 #  │
-├── copyright.html             #  ├─ legal documents
+├── community-guidelines.html  #  │
+├── child-safety.html          #  ├─ policy documents
+├── anti-bullying.html         #  │
+├── cookie-policy.html         #  │
+├── copyright.html             #  │
 ├── legal-requests.html        #  │
+├── code-of-conduct.html       #  │  (business partners)
 ├── account-deletion.html      # ─┘  (+ working request form)
 ├── assets/
 │   ├── css/styles.css         # tokens, header, footer, landing page
@@ -67,7 +72,7 @@ There are four (two in the hero, two in the download panel).
 
 Update `https://usamayousaf516.github.io/ludino-website/` in:
 
-- the `canonical`, `og:url`, `og:image` and `twitter:image` tags in all 8 pages
+- the `canonical`, `og:url`, `og:image` and `twitter:image` tags in all 13 pages
 - `robots.txt`
 - `sitemap.xml`
 
@@ -172,20 +177,45 @@ I copied the text across exactly as written, but two things are worth a look:
    that may be fine, but the privacy policy and terms currently do not mention
    the Ludo game at all.
 
-2. **One contact address.** The source used four different addresses
-   (`feedback@ludino.live`, `legal@ludino.tv`, `feedback@ludino.tv`,
-   `support@yaroapp.com`). Every one of them has been replaced with
-   **`help@ludino.live`** — it is now the only email on the site, including the
-   DMCA designated-agent block and the deletion form's network-error message.
+2. **One contact address.** Every email on the site is
+   **`Technologyyaro@gmail.com`**, taken from the source documents — including
+   the copyright designated-agent block and the deletion form's network-error
+   message.
 
-   Because that address handles copyright takedowns and law-enforcement
+   Because that address handles copyright take-downs and law-enforcement
    requests as well as ordinary support, make sure whoever monitors it knows to
-   route those on quickly — DMCA notices carry deadlines.
+   route those on quickly — take-down notices carry deadlines.
 
-Two footer links from the original design — **Community Guidelines** and
-**Refund Policy** — had no source content anywhere, so they were removed rather
-than shipped empty. The closest existing material is Acceptable use (Terms §5)
-and Virtual items and payments (Terms §6).
+3. **Two company names appear.** The User Agreement, Privacy Policy contact
+   block and Copyright designated agent all say **Yaro Technology LLC**; the
+   Copyright Policy's own opening line and the footer copyright say **Ludino
+   Technology LLC**. Each page reproduces what its source document says. Worth
+   settling on one.
+
+4. **Two jurisdictions appear.** The Copyright Policy is written around the
+   Singapore Copyright Act 2021 (with DMCA and EU safe harbours mentioned in
+   passing), while the company address is Wyoming. The User Agreement has no
+   governing-law or dispute-resolution clause at all — the previous version did.
+
+**Community Guidelines now exists** as its own page. There is still no Refund
+Policy document — the closest material is Virtual items (User Agreement §6),
+which states that Diamond and Gift purchases are final and non-refundable.
+
+**Editorial notes on transcription:**
+
+- User Agreement §5(viii) said "transmitted through the Twitch Services" in the
+  source — a copy-paste artifact. Changed to "the LUDINO Services".
+- User Agreement §3 contains "LUDINO and LUDINO will use a unified account
+  system … accounts for both LUDINO", which appears to be a find-and-replace
+  artifact where two product names were both replaced. Left as written.
+- The Cookie Policy source has three empty list sections ("Necessary cookies on
+  the Ludino Services may include:" followed by nothing). Those stubs were left
+  out rather than published empty; the explanatory text for each cookie type is
+  intact.
+- In the Hate Speech policy, the quoted example threats under "Blackmail,
+  threats, and endangerment" were condensed — several verbatim quotes,
+  including explicit encouragements of suicide, were summarised rather than
+  reproduced in full on a public page.
 
 ---
 
