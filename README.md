@@ -238,10 +238,14 @@ so test with care.
 Any static server works. From this folder:
 
 ```bash
-python -m http.server 5173
+python serve.py
 ```
 
-Then open <http://localhost:5173>. Opening the HTML files directly by
+Then open <http://localhost:5173>. `serve.py` reads the `PORT` environment
+variable, so a harness can hand it a free port; it also sends `no-store` so you
+never chase a cached stylesheet. It uses `ThreadingHTTPServer` deliberately — a
+single-threaded server deadlocks on the parallel keep-alive connections a
+browser opens for CSS, JS and images. Opening the HTML files directly by
 double-clicking also works — every path is relative.
 
 ## Deploying

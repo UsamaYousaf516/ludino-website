@@ -61,6 +61,6 @@ Options -Indexes
 
 # ------------------------------------------------------------ housekeeping -
 # These ship in the repo but should never be served publicly.
-<FilesMatch "^(README\.md|\.gitignore|\.nojekyll)$">
+<FilesMatch "^(README\.md|serve\.py|\.gitignore|\.nojekyll)$">
   Require all denied
 </FilesMatch>
