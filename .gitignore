@@ -11,3 +11,6 @@ Desktop.ini
 
 # Logs
 *.log
+
+# App store marketing assets — not part of the deployed site
+store-graphics/
